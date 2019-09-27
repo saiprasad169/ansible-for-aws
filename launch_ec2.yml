@@ -15,7 +15,7 @@
         wait: yes    
         group: All
         instance_tags:  
-          group: webserver  
+          group: All
         exact_count: 3  
         count_tag:  
-          group: webserver
+          group: All
