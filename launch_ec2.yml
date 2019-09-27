@@ -9,11 +9,11 @@
     - name: EC2 basic provisioning  
       ec2:
         region: "{{ region }}"  
-        key_name: yan-key-pair-apsydney  
+        key_name: kubetest 
         instance_type: t1.micro  
-        image: ami-6bf99c51  
+        image: ami-03b6f27628a4569c8  
         wait: yes    
-        group: sg_webserver_apsydney
+        group: All
         instance_tags:  
           group: webserver  
         exact_count: 3  
