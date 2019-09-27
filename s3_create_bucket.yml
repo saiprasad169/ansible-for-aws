@@ -3,7 +3,7 @@
   gather_facts: no
   connection: local 
   vars:
-    bucketname: yan001
+    bucketname: sai
   tasks:
     - name: create an S3 bucket
       s3:
