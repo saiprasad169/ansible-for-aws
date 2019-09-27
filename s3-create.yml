@@ -1,5 +1,5 @@
 ---
 - hosts: all 
   gather_facts: no
-    - s3_bucket:
-        name: mys3bucket
+  - s3_bucket:
+      name: mys3bucket
