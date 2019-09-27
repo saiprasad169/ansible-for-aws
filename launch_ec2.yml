@@ -13,9 +13,9 @@
         instance_type: t1.micro  
         image: ami-03b6f27628a4569c8  
         wait: yes    
-        group: All
+        group: Open
         instance_tags:  
-          group: All
+          group: admin
         exact_count: 3  
         count_tag:  
-          group: All
+          group: Open
