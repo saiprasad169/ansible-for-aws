@@ -9,5 +9,5 @@
       ec2:
         region: "{{ region }}"
         wait: true
-        instance_ids: [ 'i-071acc34c7868d216' ]
+        instance_ids: [ 'i-0bbc1b87aba50be2b' ]
         state: 'stopped' 
