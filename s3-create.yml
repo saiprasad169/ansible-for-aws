@@ -1,6 +1,0 @@
----
-- hosts: all 
-  gather_facts: no
-  tasks: 
-  - s3_bucket:
-      name: mys3bucket
