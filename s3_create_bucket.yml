@@ -1,9 +1,9 @@
 ---
-- hosts: localhost
+- hosts: all
   gather_facts: no
   connection: local 
   vars:
-    bucketname: sai
+    bucketname: test6969
   tasks:
     - name: create an S3 bucket
       s3:
