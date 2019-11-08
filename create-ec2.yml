@@ -10,7 +10,7 @@
       security_group: Wide-Open
       image: ami-048a01c78f7bae4aa
       region: ap-southeast-1
-      keypair: kubetest
+      keypair: awx
       count: 1
 
     tasks:
